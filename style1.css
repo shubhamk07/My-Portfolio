@@ -1,62 +1,99 @@
-.navbar{
-    background-color: #131313;
-    font-size: 2.5vmin;
-    
-}
-#intro{
-    background-color: #1ABC9C;
-    color: black;
-    font-family: 'Overlock';
-}
-#about{
-   background-color: ;
-    background-color: #D5D5D5;
-    color: black;
-   line-height: 2.0;
-    font-size: 1.2em;
-}
-#contact{
-    background-color: #474E5D;
-    color: #D5D5D5;
-    height: 40%;
-    padding-top: 2%;
-   overflow-x: hidden;
-}
-body{
-    color:white;
-     font-family: "Vollkorn",Georgia,"Times New Roman",Times,serif;
-}
-.work{
-    color:black;
-    background-color: white;
-    line-height: 2.0;
-    font-size: 1.2em;
-    
-    
-}
-.hello{
-    font-weight: 500;
-    font-size: 4em;
-}
-.pad {
-    padding-bottom: 2%;
-    
-}
-.reach{
-    color:cadetblue;
-    font-size: 6vmin;
-    font-family: monospace;
-}
-a:hover {
-    color:cyan;
-    
-}
-@media only screen and (min-device-width : 550px) and (max-device-width : 767px){
-    .reach{
-        font-size: 4vmin;
-    }
 
-@media only screen and (min-device-width : 300px) and (max-device-width : 549px){
-    .reach{
-        font-size: 3vmin;
-    }
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #474e5d;
+    color: #ffffff;
+}
+.bg-3{
+    background-color: #ffffff;
+    color: #555555;
+}
+.bg-7{
+    background-color: #FFF056;
+    color: black;
+    
+}
+.container-fluid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+.bg-5{
+    background-color: #474e5d;
+    color:white;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+a{
+    color:white;
+}
+h3{
+    font-size: 3em;
+    line-height: 1.8;
+   
+  
+}
+.heading{
+    font-size: 3.5em;
+}
+.margin{
+    margin-bottom: 40px;
+}
+p{
+    font-size:  2.1em;
+    line-height: 1.8
+}
+.blue{
+    color:blue;
+}
+.pad{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+@media only screen and (min-width: 768px)
+{
+    h3{
+    font-size: 2.7em;
+}
+.heading{
+    font-size: 3.1em;
+}
+    p{
+    font-size:  2.1em;
+        
+}
+
+}
+@media only screen and (max-width: 360px)
+{
+    h3{
+    font-size: 2.3em;
+}
+.heading{
+    font-size: 2.7em;
+}
+    p{
+    font-size:  1.5em;
+}
+ 
+}
+/*@media only screen and (max-width: 588px) 
+    
+
+{
+    h3{
+    font-size: 2.5em;
+}
+.heading{
+    font-size: 2.9em;
+}
+    p{
+    font-size:  1.8em;
+}
+ 
+}
+*/
